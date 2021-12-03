@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(/fonts/Oswald-Medium.ttf);
+}
+
+h1 {
+    display: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'oswald';
+}
+
+span {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1860px;
+    margin: 0 12px 60px;
+}
+
+.logo {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-end;
+    color: #1A1A1A;
+    opacity: 0.1;
+}
+
+.intro {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.intro::before {
+    content: "\00B9";
+    margin-right: 7px;
+}
+
+.container ul li+li {
+    margin-top: 40px;
+}
+
+.core::before {
+    content: "\00B2";
+    margin-right: 7px;
+}
+
+.container ul li p+p {
+    margin-top: 20px;
+}
+
+.react::before {
+    content: "\00B3";
+    margin-right: 7px;
+}
+
+.four {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.font-awesom {
+    font-size: 25px;
+    font-family: "FontAwesome";
+    color: #000;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
